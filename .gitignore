@@ -1,0 +1,24 @@
+# Environnement virtuel
+venv/
+# Fichiers de log
+*.log
+# Fichiers de base de données
+*.db
+# Fichiers de cache
+__pycache__/
+# Fichiers de configuration
+config.yaml
+# Fichiers de données
+data/
+# Fichiers de test
+tests/
+# Fichiers de documentation
+docs/
+# Fichiers de build
+build/
+# Fichiers de distribution
+dist/
+# Fichiers de configuration de l'IDE
+.idea/
+# Fichiers de configuration de l'éditeur
+.vscode/

@@ -1,0 +1,41 @@
+# Dépendances Python — Classification Chest X-Ray par CNN
+# =========================================================
+# Installation :
+#   pip install -r requirements.txt
+
+# ── Cœur PyTorch ──────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ── Science des données ───────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0       # confusion_matrix, roc_auc_score, classification_report
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.13.0           # heatmaps stylisées, pairplots, boxplots stats
+
+# ── Image ─────────────────────────────────────────────────────
+Pillow>=10.0.0
+opencv-python>=4.8.0      # superposition heatmap Grad-CAM
+albumentations>=1.4.0     # augmentation avancée (elastic, CLAHE, GridDistortion…)
+
+# ── Utilitaires entraînement ──────────────────────────────────
+tqdm>=4.66.0              # barres de progression dans les boucles
+torchinfo>=1.8.0          # summary(model, input_size=…) style Keras
+
+# ── Interprétabilité ──────────────────────────────────────────
+grad-cam>=1.5.0           # pytorch-grad-cam : GradCAM, GradCAM++, ScoreCAM…
+
+# ── Configuration ─────────────────────────────────────────────
+pyyaml>=6.0               # lecture config.yaml
+
+# ── Notebooks & rapport ───────────────────────────────────────
+jupyter>=1.0.0
+jupyterlab>=4.0.0         # interface moderne (alternative à Jupyter classic)
+ipywidgets>=8.0.0
+nbconvert>=7.0.0          # export notebook → PDF / HTML
+
+# ── Interface de démonstration ────────────────────────────────
+streamlit>=1.30.0         # mini-app de prédiction en temps réel

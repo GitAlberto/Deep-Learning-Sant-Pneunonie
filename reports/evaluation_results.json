@@ -1,0 +1,15 @@
+{
+  "architecture": "baseline",
+  "test_accuracy": 0.8349,
+  "test_precision": 0.9184,
+  "test_recall": 0.8077,
+  "test_f1": 0.8595,
+  "test_auc": 0.9107,
+  "confusion_matrix": {
+    "TN": 206,
+    "FP": 28,
+    "FN": 75,
+    "TP": 315
+  },
+  "false_negative_rate": 0.1923
+}
